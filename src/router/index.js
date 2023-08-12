@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import EventosView from '../views/EventosView.vue'
+import ValidadoresView from '../views/ValidadoresView.vue'
 const routes = [
   {
     path: '/',
@@ -19,6 +20,12 @@ const routes = [
     name: 'eventos',
     component: EventosView,
     meta: { title: 'Eventos, Registros de Eventos' }
+  },
+  {
+    path: '/validadores',
+    name: 'validadores',
+    component: ValidadoresView,
+    meta: { title: 'Validadores de eventos' }
   },
   {
     path: '/about',

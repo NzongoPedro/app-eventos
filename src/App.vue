@@ -81,5 +81,7 @@ export default {
 .link-nav {
   color: var(--primary);
   text-decoration: none;
+  padding: 2px !important;
+  font-size: 14px;
 }
 </style>
